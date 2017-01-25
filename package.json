@@ -1,0 +1,28 @@
+{
+  "name": "firebase-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server --progress --display-error-details",
+    "production": "./node_modules/.bin/webpack -p --progress"
+  },
+  "keywords": [],
+  "author": "David M. <david_morales@epam.com>",
+  "license": "ISC",
+  "dependencies": {
+    "re-base": "^2.5.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
